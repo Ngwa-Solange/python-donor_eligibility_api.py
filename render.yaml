@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: donor-eligibility-api
+    env: python
+    buildCommand: ""
+    startCommand: python donor_eligibility_api.py
